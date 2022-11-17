@@ -15,6 +15,11 @@
   left: 0;
   top: 35px;
 
+  display: none;
+
+}
+.popover button:focus + .popover-content{
+  display: block;
 }
 .popover-content span{
   display: block;
