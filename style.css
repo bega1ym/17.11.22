@@ -9,15 +9,19 @@
 }
 .example-2::before{
   content: "❤" ;
+  border: 1px solid black;
 }
 .example-2::after {
 content: "❤" ;
+border: 1px solid black;
 }
 .example-3::before{
   content: "🖤";
+  border: 1px solid black;
 }
 .example-3::after{
   content: "🖤";
+  border: 1px solid black;
 }
 .popover {
   position: relative;
