@@ -1,6 +1,24 @@
 *{
   box-sizing: border-box;
 }
+.example-1::before{
+  content:"Hello";
+}
+.example-1::after{
+  content: "bye";
+}
+.example-2::before{
+  content: "❤" ;
+}
+.example-2::after {
+content: "❤" ;
+}
+.example-3::before{
+  content: "🖤";
+}
+.example-3::after{
+  content: "🖤";
+}
 .popover {
   position: relative;
 }
